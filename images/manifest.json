@@ -1,0 +1,66 @@
+{
+  "id" : "https://mateocerva.github.io/Mateo1/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in mateocerva/Mateo1 project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 3767,
+    "id" : "https://mateocerva.github.io/Mateo1/images/Le_Maistre_decole/canvas/",
+    "label" : {
+      "none" : [ "Le_Maistre_decole" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://mateocerva.github.io/Mateo1/images/Le_Maistre_decole/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://mateocerva.github.io/Mateo1/images/Le_Maistre_decole/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 118,
+              "height" : 94
+            }, {
+              "width" : 236,
+              "height" : 188
+            }, {
+              "width" : 471,
+              "height" : 375
+            }, {
+              "width" : 942,
+              "height" : 750
+            }, {
+              "width" : 1884,
+              "height" : 1500
+            }, {
+              "width" : 3767,
+              "height" : 3000
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3767,
+            "@id" : "https://mateocerva.github.io/Mateo1/images/Le_Maistre_decole",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3000
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3767,
+          "id" : "https://mateocerva.github.io/Mateo1/images/Le_Maistre_decole/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 3000
+        },
+        "target" : "https://mateocerva.github.io/Mateo1/images/Le_Maistre_decole/canvas/"
+      } ]
+    } ],
+    "height" : 3000
+  } ]
+}
