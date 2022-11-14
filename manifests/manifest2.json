@@ -1,0 +1,154 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mateocerva.github.io/Mateo1/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Mapas de Colombia.",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Mapas de Colombia y noColombia",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Los colonizadores",
+  "sequences" : [ {
+    "@id" : "http://b16c94c7-19ee-4df0-b552-029bf7b1d8da",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://2e906ef9-42e8-4e40-8653-59d10bb0b1ee",
+      "@type" : "sc:Canvas",
+      "label" : "Mapa, Barranquilla",
+      "height" : 8845,
+      "width" : 12310,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://69aa9fbf-9111-42e2-b76b-d3185261e25e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.iiifhosting.com/iiif/426d4f158f9bec0565fac24f2d8a778181b6ed6174c3c18db0eb8e4c50092282/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.iiifhosting.com/iiif/426d4f158f9bec0565fac24f2d8a778181b6ed6174c3c18db0eb8e4c50092282",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 8845,
+          "width" : 12310
+        },
+        "on" : "http://2e906ef9-42e8-4e40-8653-59d10bb0b1ee"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://8db192af-be7e-4184-9e9e-bdb05ffedfd4",
+      "@type" : "sc:Canvas",
+      "label" : "Mapa, Pacifico",
+      "height" : 5123,
+      "width" : 3579,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://84fa0964-9abb-4024-8340-97421c16d2a0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.iiifhosting.com/iiif/139e2c5811501e299c4497c133bbb39c6496e3b88b2d91fe6de10d39346e92a5/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.iiifhosting.com/iiif/139e2c5811501e299c4497c133bbb39c6496e3b88b2d91fe6de10d39346e92a5",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 5123,
+          "width" : 3579
+        },
+        "on" : "http://8db192af-be7e-4184-9e9e-bdb05ffedfd4"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7ee4b32c-8e84-4347-9a43-e7ca134685d8",
+      "@type" : "sc:Canvas",
+      "label" : "Mapa, Colombia",
+      "height" : 3176,
+      "width" : 3746,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e14e7b40-02d8-415f-855c-1057b766e3a6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.iiifhosting.com/iiif/1e8b93236eac8c56c038fb2fba29eb0171273166b3ddc91a861acd649701ff4a/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.iiifhosting.com/iiif/1e8b93236eac8c56c038fb2fba29eb0171273166b3ddc91a861acd649701ff4a",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 3176,
+          "width" : 3746
+        },
+        "on" : "http://7ee4b32c-8e84-4347-9a43-e7ca134685d8"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://716b5e7f-e753-46ce-9c9b-9bba261e7f65",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3171,
+      "width" : 3747,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2fae6b4f-ed0a-48bb-ab69-f8a6569fa192",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.iiifhosting.com/iiif/dd9ec51c03b69b1eeb33c4d60b13606dc39d1ad89d9c05a4609d424286683d18/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.iiifhosting.com/iiif/dd9ec51c03b69b1eeb33c4d60b13606dc39d1ad89d9c05a4609d424286683d18",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 3171,
+          "width" : 3747
+        },
+        "on" : "http://716b5e7f-e753-46ce-9c9b-9bba261e7f65"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://b16c94c7-19ee-4df0-b552-029bf7b1d8da" ]
+  } ]
+}
